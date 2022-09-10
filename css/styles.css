@@ -39,6 +39,11 @@ header {
   height: 70px;
   display: flex;
   align-items: center;
+  padding: 0 20px;
+}
+
+main {
+  padding: 0 20px;
 }
 
 nav {
@@ -65,8 +70,8 @@ nav {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
-.btn-container-220 {
-  width: 220px;
+.bottom-controls-container {
+  width: 100%;
 }
 
 .btn {
@@ -92,4 +97,10 @@ nav {
 
 .mb20 {
   margin-bottom: 20px;
+}
+
+@media(min-width: 576px) {
+  .bottom-controls-container {
+    width: 220px;
+  }
 }
