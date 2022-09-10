@@ -1,76 +1,76 @@
 @import url("styles.css");
 
 #cart-container {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
-.cart-total-container {
-    padding: 10px 20px;
+.dsc-cart-total-container {
+  padding: 10px 20px;
 }
 
-.cart-total-container h3 {
-    text-align: left;
-    font-size: 16px;
-    color: var(--dsc-color-font-secondary);
+.dsc-cart-total-container h3 {
+  text-align: left;
+  font-size: 16px;
+  color: var(--dsc-color-font-secondary);
 }
 
-.cart-item-container {
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
+.dsc-cart-item-container {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.cart-item-container img {
-    width: 78px;
-    height: 78px;
+.dsc-cart-item-container img {
+  width: 78px;
+  height: 78px;
 }
 
-.cart-item-left {
-    display: flex;
+.dsc-cart-item-left {
+  display: flex;
 }
 
-.cart-item-quantity-container {
-    font-size: 16px;
-    font-weight: 700;
-    display: flex;
+.dsc-cart-item-quantity-container {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
 }
 
-.cart-item-right {
-    padding-bottom: 10px;
-    font-size: 12px;
-    font-weight: 700;
-    color: var(--dsc-color-font-secondary);
+.dsc-cart-item-right {
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--dsc-color-font-secondary);
 }
 
-.cart-item-description {
-    padding: 10px 0;
-    color: var(--dsc-color-font-primary);
+.dsc-cart-item-description {
+  padding: 10px 0;
+  color: var(--dsc-color-font-primary);
 }
 
-.cart-item-description h3 {
-    font-size: 12px;
+.dsc-cart-item-description h3 {
+  font-size: 12px;
 }
 
-.cart-item-quantity-btn {
-    color: var(--dsc-color-btn-primary);
-    cursor: pointer;
+.dsc-cart-item-quantity-btn {
+  color: var(--dsc-color-btn-primary);
+  cursor: pointer;
 }
 
-.cart-item-quantity-container p {
-    margin: 0 5px;
+.dsc-cart-item-quantity-container p {
+  margin: 0 5px;
 }
 
-@media(min-width: 576px) {
-    .cart-item-container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+@media (min-width: 576px) {
+  .dsc-cart-item-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    .cart-item-right {
-        padding-top: 10px;
-    }
+  .dsc-cart-item-right {
+    padding-top: 10px;
+  }
 
-    .cart-total-container h3 {
-        text-align: right;
-    }
+  .dsc-cart-total-container h3 {
+    text-align: right;
+  }
 }

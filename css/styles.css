@@ -10,9 +10,9 @@
 
   --dsc-color-btn-primary: #3483fa;
   --dsc-color-btn-inverse: #fff;
-  
+
   --dsc-color-font-primary: #636363;
-  --dsc-color-font-secondary: #0CAF1D;
+  --dsc-color-font-secondary: #0caf1d;
   --dsc-color-font-tertiary: #fff;
 }
 
@@ -53,28 +53,28 @@ nav {
   align-items: center;
 }
 
-.container {
+.dsc-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
 
-.card {
+.dsc-card {
   margin-bottom: 20px;
   border: 1px solid var(--dsc-color-card-border);
   border-radius: 4px;
   background-color: var(--dsc-color-card-bg);
 }
 
-.line-bottom {
+.dsc-line-bottom {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
-.bottom-controls-container {
+.dsc-bottom-controls-container {
   width: 100%;
 }
 
-.btn {
+.dsc-btn {
   border-radius: 4px;
   height: 42px;
   font-size: 16px;
@@ -84,23 +84,23 @@ nav {
   align-items: center;
 }
 
-.btn-blue {
+.dsc-btn-blue {
   background-color: var(--dsc-color-btn-primary);
   color: var(--dsc-color-btn-inverse);
 }
 
-.btn-white {
+.dsc-btn-white {
   border: 1px solid var(--dsc-color-btn-primary);
   background-color: var(--dsc-color-btn-inverse);
   color: var(--dsc-color-btn-primary);
 }
 
-.mb20 {
+.dsc-mb20 {
   margin-bottom: 20px;
 }
 
-@media(min-width: 576px) {
-  .bottom-controls-container {
+@media (min-width: 576px) {
+  .dsc-bottom-controls-container {
     width: 220px;
   }
 }
