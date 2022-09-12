@@ -60,7 +60,6 @@ nav {
 }
 
 .dsc-card {
-  margin-bottom: 20px;
   border: 1px solid var(--dsc-color-card-border);
   border-radius: 4px;
   background-color: var(--dsc-color-card-bg);
@@ -92,6 +91,13 @@ nav {
 .dsc-btn-white {
   border: 1px solid var(--dsc-color-btn-primary);
   background-color: var(--dsc-color-btn-inverse);
+  color: var(--dsc-color-btn-primary);
+}
+
+.dsc-next-page {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
   color: var(--dsc-color-btn-primary);
 }
 
