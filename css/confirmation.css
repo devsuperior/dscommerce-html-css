@@ -1,0 +1,15 @@
+@import url("styles.css");
+
+.dsc-confirmation-message {
+  color: var(--dsc-color-font-primary);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .dsc-confirmation-message {
+    font-size: 24px;
+    text-align: left;
+  }
+}
