@@ -1,0 +1,22 @@
+@import url("styles.css");
+
+#login-container {
+    padding: 40px 0;
+}
+
+.dsc-login-form-container {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.dsc-login-form-controls {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-gap: 20px;  
+}
+
+.dsc-login-form-buttons {
+    width: 100%;
+}

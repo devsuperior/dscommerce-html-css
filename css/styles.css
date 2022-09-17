@@ -75,6 +75,7 @@ nav {
 }
 
 .dsc-btn {
+  width: 100%;
   border-radius: 4px;
   height: 42px;
   font-size: 16px;
@@ -85,6 +86,7 @@ nav {
 }
 
 .dsc-btn-blue {
+  border: none;
   background-color: var(--dsc-color-btn-primary);
   color: var(--dsc-color-btn-inverse);
 }
@@ -143,6 +145,35 @@ nav {
   border-radius: 0px 4px 4px 0px;
   border-left: none;
   color: var(--dsc-color-font-primary);
+}
+
+.dsc-form {
+  color: var(--dsc-color-font-primary);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dsc-form h2 {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.dsc-form-control {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.dsc-form-control::placeholder {
+  color: var(--dsc-color-font-placeholder);
+}
+
+.dsc-form-control:focus {
+  outline: none;
 }
 
 .dsc-mt20 {
