@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSCommerce</title>
+
+    <link rel="stylesheet" href="css/product-form.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="dsc-container">
+        <h1>DSCommerce</h1>
+        <div class="dsc-logged-user">
+          <p>Maria</p>
+          <a href="#">Sair</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="product-form-container" class="dsc-container">
+        <div class="dsc-product-form-container dsc-mb20">
+          <form class="dsc-card dsc-form">
+            <h2>Dados do produto</h2>
+            <div class="dsc-product-form-controls">
+              <div>
+                <input
+                  class="dsc-form-control"
+                  type="text"
+                  placeholder="Nome"
+                />
+              </div>
+              <div>
+                <input
+                  class="dsc-form-control"
+                  type="password"
+                  placeholder="Preço"
+                />
+              </div>
+              <div>
+                <input
+                  class="dsc-form-control"
+                  type="password"
+                  placeholder="Imagem"
+                />
+              </div>
+              <div>
+                <select class="dsc-form-control dsc-select" required>
+                  <option value="" disabled selected>Categorias</option>
+                  <option value="1">Valor 1</option>
+                  <option value="2">Valor 2</option>
+                </select>
+              </div>
+              <div>
+                <textarea class="dsc-form-control dsc-textarea"></textarea>
+              </div>
+            </div>
+            <div class="dsc-product-form-buttons">
+              <button class="dsc-btn dsc-btn-white">Cancelar</button>
+              <button class="dsc-btn dsc-btn-blue" type="submit">Entrar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

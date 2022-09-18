@@ -21,8 +21,13 @@
           <form class="dsc-card dsc-form">
             <h2>Login</h2>
             <div class="dsc-login-form-controls">
-              <input class="dsc-form-control" type="text" placeholder="Email" />
-              <input class="dsc-form-control" type="password" placeholder="Senha" />
+              <div>
+                <input class="dsc-form-control dsc-input-error-highlight" type="text" placeholder="Email" />
+                <div class="dsc-input-error">Campo obrigatório</div>
+              </div>
+              <div>
+                <input class="dsc-form-control" type="password" placeholder="Senha" />
+              </div>
             </div>
             <div class="dsc-login-form-buttons">
               <button class="dsc-btn dsc-btn-blue" type="submit">Entrar</button>
