@@ -1,5 +1,9 @@
 @import url("styles.css");
 
+#confirmation-section {
+  padding: 20px 0;
+}
+
 .dsc-confirmation-message {
   color: var(--dsc-color-font-primary);
   font-size: 16px;

@@ -1,25 +1,31 @@
 @import url("styles.css");
 
-#product-form-container {
-    padding: 40px 0;
+#product-form-section {
+  padding: 20px 0;
 }
 
 .dsc-product-form-container {
-    max-width: 500px;
-    margin: 0 auto;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .dsc-product-form-controls {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: grid;
-    grid-gap: 20px;  
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-gap: 20px;
 }
 
 .dsc-product-form-buttons {
-    width: 100%;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(218px, 1fr));  
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(218px, 1fr));
+}
+
+@media (min-width: 576px) {
+  #product-form-section {
+    padding: 40px 0;
+  }
 }
