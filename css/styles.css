@@ -37,23 +37,8 @@ body {
   background-color: var(--dsc-color-bg-primary);
 }
 
-header {
-  background-color: var(--dsc-color-bg-secondary);
-  height: 70px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-}
-
 main {
   padding: 0 20px;
-}
-
-nav {
-  color: var(--dsc-color-font-primary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -92,7 +77,32 @@ nav {
 }
 
 /*---------------------------------------------------------------------------*/
-/* navbar styles */
+/* header styles */
+
+header {
+  background-color: var(--dsc-color-bg-secondary);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav {
+  color: var(--dsc-color-font-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav a {
+  font-size: 14px;
+  font-weight: 700;
+}
 
 .dsc-logged-user {
   display: flex;
