@@ -51,6 +51,10 @@ main {
   margin-bottom: 20px;
 }
 
+.dsc-mt20 {
+  margin-top: 20px;
+}
+
 /*-----------------------------------------------------------------*/
 /* header styles */
 
@@ -125,4 +129,15 @@ nav a {
   border: 1px solid var(--dsc-color-btn-primary);
   background-color: var(--dsc-color-btn-inverse);
   color: var(--dsc-color-btn-primary);
+}
+
+.dsc-btn-next-page {
+  border: 1px solid var(--dsc-color-btn-primary);
+  padding: 10px;
+  border-radius: 4px;
+  color: var(--dsc-color-btn-primary);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
 }
