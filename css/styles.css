@@ -14,6 +14,7 @@
   --dsc-color-font-primary: #636363;
   --dsc-color-font-secondary: #0caf1d;
   --dsc-color-font-tertiary: #fff;
+  --dsc-color-font-placeholder: #d9d9d9;
 }
 
 * {
@@ -140,4 +141,49 @@ nav a {
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
+}
+
+/*-----------------------------------------------------------------*/
+/* search bar styles */
+
+.dsc-search-bar {
+  height: 40px;
+  display: flex;
+  color: var(--dsc-color-font-primary);
+}
+
+.dsc-search-bar button, .dsc-search-bar input {
+  border: 1px solid var(--dsc-color-card-border);
+}
+
+.dsc-search-bar input {
+  width: calc(100% - 80px);
+  border-left: none;
+  border-right: none;
+  padding: 0 10px;
+  font-size: 16px;
+  color: var(--dsc-color-font-primary);
+}
+
+.dsc-search-bar input:focus {
+  outline: none;
+}
+
+.dsc-search-bar input::placeholder {
+  color: var(--dsc-color-font-placeholder);
+}
+
+.dsc-search-bar button {
+  width: 40px;
+  color: var(--dsc-color-font-primary);
+}
+
+.dsc-search-bar button[type="submit"] {
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.dsc-search-bar button[type="reset"] {
+  border-left: none;
+  border-radius: 0 4px 4px 0;
 }
