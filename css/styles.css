@@ -15,6 +15,8 @@
   --dsc-color-font-secondary: #0caf1d;
   --dsc-color-font-tertiary: #fff;
   --dsc-color-font-placeholder: #d9d9d9;
+
+  --dsc-color-error: #f33;
 }
 
 * {
@@ -112,8 +114,9 @@ nav a {
 }
 
 .dsc-btn {
-  border-radius: 4px;
+  width: 100%;
   height: 42px;
+  border-radius: 4px;
   font-size: 16px;
   font-weight: 700;
   display: flex;
@@ -122,6 +125,7 @@ nav a {
 }
 
 .dsc-btn-blue {
+  border: none;
   background-color: var(--dsc-color-btn-primary);
   color: var(--dsc-color-btn-inverse);
 }
@@ -186,4 +190,63 @@ nav a {
 .dsc-search-bar button[type="reset"] {
   border-left: none;
   border-radius: 0 4px 4px 0;
+}
+
+/*-----------------------------------------------------------------*/
+/* form styles */
+
+.dsc-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.dsc-form h2 {
+  font-size: 16px;
+  color: var(--dsc-color-font-primary);
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+
+.dsc-form-controls-container {
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  margin: 20px 0;
+}
+
+.dsc-form-control {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 20px;
+  color: var(--dsc-color-font-primary);
+  border-radius: 4px;
+  border: 1px solid var(--dsc-color-card-border);
+}
+
+.dsc-form-control:focus {
+  outline: none;
+}
+
+.dsc-form-control::placeholder {
+  color: var(--dsc-color-font-placeholder);
+}
+
+.dsc-input-error {
+  border: 1px solid var(--dsc-color-error);
+}
+
+.dsc-form-error {
+  color: var(--dsc-color-error);
+  font-size: 12px;
+  padding-left: 4px;
+}
+
+@media (min-width: 576px) {
+  .dsc-form h2 {
+    font-size: 24px;
+  }
 }
