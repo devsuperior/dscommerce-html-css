@@ -34,6 +34,22 @@ body {
   background-color: var(--dsc-color-bg-primary);
 }
 
+/*-----------------------------------------------------------------*/
+/* generic styles */
+
+.dsc-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.dsc-mb20 {
+  margin-bottom: 20px;
+}
+
+/*-----------------------------------------------------------------*/
+/* header styles */
+
 header {
   background-color: var(--dsc-color-bg-secondary);
   height: 70px;
@@ -48,11 +64,17 @@ nav {
   align-items: center;
 }
 
-.dsc-container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
+nav h1 {
+  font-size: 24px;
 }
+
+nav a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/*-----------------------------------------------------------------*/
+/* card styles */
 
 .dsc-card {
   border: 1px solid var(--dsc-color-card-border);
@@ -63,6 +85,9 @@ nav {
 .dsc-line-bottom {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
+
+/*-----------------------------------------------------------------*/
+/* button styles */
 
 .dsc-btn-page-container {
   width: 220px;
@@ -89,8 +114,4 @@ nav {
   border: 1px solid var(--dsc-color-btn-primary);
   background-color: var(--dsc-color-btn-inverse);
   color: var(--dsc-color-btn-primary);
-}
-
-.dsc-mb20 {
-  margin-bottom: 20px;
 }
