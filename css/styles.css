@@ -4,6 +4,7 @@
   --dsc-color-bg-primary: #e8e8e8;
   --dsc-color-bg-secondary: #ffe500;
   --dsc-color-bg-tertiary: #636363;
+  --dsc-color-bg-quaternary: #0caf1d;
 
   --dsc-color-card-bg: #fff;
   --dsc-color-card-border: #d9d9d9;
@@ -79,26 +80,64 @@ main {
 /* header styles */
 
 header {
-  background-color: var(--dsc-color-bg-secondary);
   height: 70px;
   display: flex;
   align-items: center;
   padding: 0 20px;
 }
 
-nav {
+.dsc-header-client {
+  background-color: var(--dsc-color-bg-secondary);
   color: var(--dsc-color-font-primary);
+}
+
+.dsc-header-admin {
+  background-color: var(--dsc-color-bg-quaternary);
+  color: var(--dsc-color-font-tertiary);
+}
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 nav h1 {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 nav a {
   font-size: 14px;
+  font-weight: 700;
+}
+
+.dsc-navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.dsc-menu-items-container {
+  display: flex;
+}
+
+.dsc-menu-items-container img {
+  width: 20px;
+  height: 20px;
+}
+
+.dsc-menu-item {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.dsc-menu-item p {
+  display: none;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.dsc-menu-item-active {
   font-weight: 700;
 }
 
@@ -110,6 +149,16 @@ nav a {
 
 .dsc-logged-user p {
   font-size: 12px;
+}
+
+@media (min-width: 576px) {
+  nav h1 {
+    font-size: 24px;
+  }
+
+  .dsc-menu-item p {
+    display: unset;
+  }
 }
 
 /*-----------------------------------------------------------------*/
